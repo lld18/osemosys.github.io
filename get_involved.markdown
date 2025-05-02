@@ -4,7 +4,7 @@ layout: sub-page
 title: OSeMOSYS
 permalink: /contact/
 ---
-<div class="container-lg p-responsive py-4 py-md-6 ">
+<div class="container-lg p-responsive py-4 py-md-6 fade-in-center ">
 <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="more-than-just-code">
 Become part of our Discourse community!</h2>
 <p class="alt-lead text-gray text-center col-md-15 mx-auto" style="text-align: justify; font-size: 0.875em;">

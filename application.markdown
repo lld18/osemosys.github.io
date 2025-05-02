@@ -5,8 +5,8 @@ title: OSeMOSYS
 permalink: /applications/
 ---
 <section class="bg-gray-light container-lg p-responsive py-4 py-md-6 my-lg-6 fade-in-center">
-  <div class="text-center">
- <h1 class="alt-h1 mb-4">OSeMOSYS Applications</h1>
+  <div class="text-center fade-in-center">
+ <h2 class="alt-h2 mb-4">OSeMOSYS Applications</h2>
 
     <p>OSeMOSYS is a fundamental building block for a wide range of applications across government, industry, and academia. Several examples include:</p>
 

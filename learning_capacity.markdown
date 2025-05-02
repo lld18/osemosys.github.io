@@ -7,17 +7,18 @@ permalink: /learning_capacity/
 
 <section class="bg-gray-light container-lg p-responsive py-4 py-md-6 my-lg-6 fade-in-center">
   <div class="text-center">
-    <h1 class="alt-h1 mb-4">Learning & Capacity Building</h1>
+    <h2 class="alt-h2 mb-4">Learning & Capacity Building</h2>
   </div>
 
-   <div class="col-lg-8 mx-auto text-center">
-      <h2 class="alt-h2 mb-4">📘 Open University Course on Energy System Modelling using OSeMOSYS</h2>
-<div class="row align-items-center mb-4">
-  <div class="col-md-6">
-    <p>This comprehensive course provides students with a strong foundation in energy system modelling using OSeMOSYS (Open Source Energy Modelling System). This course incorporates the new Modelling User Interface for OSeMOSYS (MUIO), which streamlines the modelling process by integrating data management, model execution, and results visualization into a single application. Designed for professionals and students in the energy sector, this course will equip participants with the skills needed to build, analyze, and interpret energy models to support decision-making. The course is structured into 15 modules, covering essential topics such as power generation and storage, emissions accountability, and final energy uses like transport and housing. Participants will learn how to construct and calibrate an energy system model, integrate multiple sectors from supply and demand perspectives, and design scenarios for strategic energy planning. Through hands-on exercises based on real-world situations, this course ensures a solid understanding of OSeMOSYS and its practical uses.</p>
+  <div class="col-lg-8 mx-auto text-center">
+  <h2 class="alt-h2 mt-5">📘 Open University Course on Energy System Modelling using OSeMOSYS</h2>
+  <p>
+    This comprehensive course provides students with a strong foundation in energy system modelling using OSeMOSYS (Open Source Energy Modelling System). This course incorporates the new Modelling User Interface for OSeMOSYS (MUIO), which streamlines the modelling process by integrating data management, model execution, and results visualization into a single application. Designed for professionals and students in the energy sector, this course will equip participants with the skills needed to build, analyze, and interpret energy models to support decision-making. The course is structured into 15 modules, covering essential topics such as power generation and storage, emissions accountability, and final energy uses like transport and housing. Participants will learn how to construct and calibrate an energy system model, integrate multiple sectors from supply and demand perspectives, and design scenarios for strategic energy planning. Through hands-on exercises based on real-world situations, this course ensures a solid understanding of OSeMOSYS and its practical uses.
+  </p>
+</div>
     <ul>
      <a href="https://www.open.edu/openlearncreate/course/view.php?id=13558" class="btn btn-outline-light">Access Here →</a>
- 
+
     </ul>
   </div>
 
@@ -99,7 +100,7 @@ permalink: /learning_capacity/
 <hr>
 
 <h2 class="alt-h2 mt-5">🎓 Energy Modelling Community (YouTube Playlist)</h2>
-<div class="row align-items-center mb-4">
+<div class="row align-items-center text-center mb-4">
   <div class="col-md-6">
     <p>Explore insights and community discussions from the Energy Modelling Platform and Climate Compatible Growth events.</p>
     <p>
