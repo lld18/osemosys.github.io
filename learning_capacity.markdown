@@ -29,7 +29,7 @@ permalink: /learning_capacity/
     <a href="https://climatecompatiblegrowth.com/energy-modelling-platform/" class="text-dark font-weight-bold" style="text-decoration: none;">
       <strong>Energy Modelling Platforms (EMPs)</strong>
     </a>
-<p><strong>By offering training to professionals from the Global South, the Energy Modelling Platforms (EMPs) enable these countries to gather critical data, perform independent analyses, and develop credible investment proposals for clean energy infrastructure projects. EMPs play a vital role in what we refer to as local capacity building. 
+<p>By offering training to professionals from the Global South, the Energy Modelling Platforms (EMPs) enable these countries to gather critical data, perform independent analyses, and develop credible investment proposals for clean energy infrastructure projects. EMPs play a vital role in what we refer to as local capacity building. 
 </p>
 <p>
         <a href="https://climatecompatiblegrowth.com/energy-modelling-platform/" class="btn btn-outline-light">Learn more →</a>
@@ -99,12 +99,12 @@ permalink: /learning_capacity/
     </div>
   </div>
 
-</div>
+
      
 
     </div>
 
-    <h3 class="alt-h3 mt-5"><strong>Energy Modelling Community (YouTube Playlist)</h3>
+    <h3 class="alt-h3 mt-5">Energy Modelling Community (YouTube Playlist)</h3>
     <div class="row align-items-center text-left mb-4">
       <div class="col-md-6">
         <p>Explore insights and community discussions from the Energy Modelling Platform and Climate Compatible Growth events.</p>
@@ -122,8 +122,7 @@ permalink: /learning_capacity/
       <a href="mailto:ccg@lboro.ac.uk?subject=Inquiry%20about%20OSeMOSYS%20Training" class="btn btn-outline">Contact us about training</a>
     </p>
 
-  </div>
-</section>
+  
 
 <!-- STYLES -->
 <style>
