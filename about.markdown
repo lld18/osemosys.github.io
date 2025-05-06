@@ -4,13 +4,13 @@ layout: sub-page
 title: OSeMOSYS
 permalink: /about/
 ---
+<section class="bg-gray-light py-5 fade-in-center">
+  <div class="container-lg p-responsive">
+    <div class="row justify-content-center">
+      <div class="col-md-10 text-center animate-in">
+      <h2 class="alt-h2 mb-4">About OSeMOSYS</h2>
 
-<section class="bg-gray-light container-lg p-responsive py-4 py-md-6 my-lg-6 fade-in-center">
-  
-   <div class="col-md-10 mx-auto text-center animate-in">
-    <h2 class="alt-h2 mb-4">About OSeMOSYS</h2>
-
-    <p class="alt-lead text-gray text-justify-between">
+    <p class="alt-lead text-gray text-justify">
       <strong>OSeMOSYS</strong> is a full-fledged systems optimization model for long-run energy planning.
       The initial working code of OSeMOSYS was published in 2008 in a presentation at the International Energy Workshop in Paris at the IEA
       (<a href="https://www.osemosys.org/uploads/1/8/5/0/18504136/osemosys_iea_paris2008.pdf" target="_blank">the date stamped PDF with the original code can be found here</a>).
@@ -18,21 +18,21 @@ permalink: /about/
     </p>
 
     <h3 class="alt-h3 mt-5">What does it do?</h3>
-    <p class="text-gray text-justify-between">
+    <p class="text-gray text-justify">
       OSeMOSYS identifies the most cost-effective approach for capacity expansion and energy generation,
       focusing on minimizing discounted system costs. It meets exogenously defined final energy demands while considering existing technological attributes
       such as costs, lifetimes, and system constraints like greenhouse gas emission limits, renewable energy targets, and investment caps.
     </p>
 
     <h3 class="alt-h3 mt-5">What type of energy system can you model?</h3>
-    <p class="text-gray text-justify-between">
+    <p class="text-gray text-justify">
       You can model any type of energy system, starting from primary sources (e.g., coal mines), through fuel processing (e.g., refineries, electrolyzers),
       to end-use technologies (e.g., electric vehicles, industrial furnaces). Additionally, you can represent broader systems, such as land use and water,
       to create integrated assessment models.
     </p>
 
     <h3 class="alt-h3 mt-5">Who is the target audience?</h3>
-    <p class="text-gray text-justify-between">
+    <p class="text-gray text-justify">
       OSeMOSYS is suitable for everyone working in the energy field, including governmental bodies, industry players, and academia.
       The framework has proven its usefulness across a wide range of applications, from master's theses
       (<a href="https://doi.org/10.1016/j.rser.2024.114555" target="_blank">Hersaputri et al., 2024</a>)
@@ -41,14 +41,14 @@ permalink: /about/
     </p>
 
     <h3 class="alt-h3 mt-5">What outcomes can you obtain?</h3>
-    <p class="text-gray text-justify-between">
+    <p class="text-gray text-justify">
       Key outputs from OSeMOSYS include system costs, installed capacities, energy generation, and emissions.
       Results can be further broken down by type (e.g., investment, operating, penalties), by year, by region, by sector, and by technology,
       depending on the model design.
     </p>
 
     <h3 class="alt-h3 mt-5">How can you start with OSeMOSYS?</h3>
-    <p class="text-gray text-justify-between">
+    <p class="text-gray text-justify">
       Go ahead and download our Modelling User Interface for OSeMOSYS (MUIO).
       MUIO is an all-in-one application that lets you manage data, run models, and visualize results seamlessly.
       For training on how to use both the model and the interface, you can take our free, certified course at the Open University
@@ -58,7 +58,7 @@ permalink: /about/
     </p>
 
     <h3 class="alt-h3 mt-5">How can you contribute?</h3>
-    <p class="text-gray text-justify-between">
+    <p class="text-gray text-justify">
       OSeMOSYS is currently available in three languages: (1) GNUMathprog, (2) Python, and (3) GAMS.
       Versions (1) and (2) can be run fully open-source, from source to solver.
       All code bases are maintained on <a href="https://github.com/OSeMOSYS" target="_blank">GitHub</a>, and contributions from the community are welcome.
