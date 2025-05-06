@@ -12,10 +12,10 @@ permalink: /learning_capacity/
       <h2 class="alt-h2 mb-4">Learning & Capacity Building</h2>
     </div>
 
-    <div class="col-lg-8 mx-auto text-left">
-  <h3 class="alt-h3 mt-5">
+    <div class="mt-5">
+    <h3 class="alt-h3 mt-5">
     <a href="https://www.open.edu/openlearncreate/course/view.php?id=13558" class="text-dark font-weight-bold" style="text-decoration: none;">
-      <strong>Open University Course on Energy System Modelling using OSeMOSYS</strong>
+      <strong>📘Open University Course on Energy System Modelling using OSeMOSYS</strong>
     </a>
   </h3>
       <p>This comprehensive course provides students with a strong foundation in energy system modelling using OSeMOSYS (Open Source Energy Modelling System).</p>
@@ -27,7 +27,7 @@ permalink: /learning_capacity/
     <div class="mt-5">
     <h3 class="alt-h3 mt-5">
     <a href="https://climatecompatiblegrowth.com/energy-modelling-platform/" class="text-dark font-weight-bold" style="text-decoration: none;">
-      <strong>Energy Modelling Platforms (EMPs)</strong>
+      <strong>📸Energy Modelling Platforms (EMPs)</strong>
     </a>
 <p>By offering training to professionals from the Global South, the Energy Modelling Platforms (EMPs) enable these countries to gather critical data, perform independent analyses, and develop credible investment proposals for clean energy infrastructure projects. EMPs play a vital role in what we refer to as local capacity building. 
 </p>
@@ -104,7 +104,7 @@ permalink: /learning_capacity/
 
     </div>
 
-    <h3 class="alt-h3 mt-5">Energy Modelling Community (YouTube Playlist)</h3>
+    <h3 class="alt-h3 mt-5">🎓Energy Modelling Community (YouTube Playlist)</h3>
     <div class="row align-items-center text-left mb-4">
       <div class="col-md-6">
         <p>Explore insights and community discussions from the Energy Modelling Platform and Climate Compatible Growth events.</p>
@@ -112,10 +112,10 @@ permalink: /learning_capacity/
       </div>
     </div>
 
-    <h3 class="alt-h3 mt-5">Starter Data Kits</h3>
+    <h3 class="alt-h3 mt-5">📦Starter Data Kits</h3>
     <p>Take your skills to the next level by modelling a zero-order representation of your country using specially designed national data packages adapted for OSeMOSYS.</p>
 
-    <h3 class="alt-h3 mt-5">Flatpack Program</h3>
+    <h3 class="alt-h3 mt-5">🛠️Flatpack Program</h3>
     <p>Content to be updated soon.</p>
 
     <p class="text-center mt-5">

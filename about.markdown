@@ -4,11 +4,9 @@ layout: sub-page
 title: OSeMOSYS
 permalink: /about/
 ---
-<section class="bg-gray-light py-5 fade-in-center">
-  <div class="container-lg p-responsive">
-    <div class="row justify-content-center">
-      <div class="col-md-10 text-center animate-in">
-      <h2 class="alt-h2 mb-4">About OSeMOSYS</h2>
+<section class="bg-gray-light container-lg p-responsive py-4 py-md-6 my-lg-6 fade-in-center">
+  <div class="text-center fade-in-center">
+ <h2 class="alt-h2 mb-4">About OSeMOSYS </h2>
 
     <p class="alt-lead text-gray text-justify">
       <strong>OSeMOSYS</strong> is a full-fledged systems optimization model for long-run energy planning.
