@@ -7,12 +7,12 @@ permalink: /dataset/
 
 <section class="bg-gray-light container-lg p-responsive py-4 py-md-6 my-lg-6 fade-in-center">
   <div class="text-center">
-    <h1 class="alt-h1 mb-4">Datasets & Tools</h1>
+    <h2 class="alt-h2 mb-4">Datasets & Tools</h2>
   </div>
 
   <div class="col-lg-10 mx-auto text-left">
 
-    <h2 class="alt-h2 mt-5">🌍 Starter Data Kits</h2>
+    <h3 class="alt-h3 mt-5"><strong>🌍 Starter Data Kits</h3>
     <div class="row align-items-center mb-5">
       <div class="col-md-6">
         <p>Take your skills to the next level by modelling a zero-order representation of your country using specially designed national data packages adapted for OSeMOSYS.</p>
@@ -24,7 +24,7 @@ permalink: /dataset/
 
     <hr>
 
-    <h2 class="alt-h2 mt-5">🖥️ Modelling User Interface for OSeMOSYS (MUIO)</h2>
+    <h3 class="alt-h3 mt-5"><strong>🖥️ Modelling User Interface for OSeMOSYS (MUIO)</h3>
     <div class="row align-items-center mb-5">
       <div class="col-md-6">
         <p>Enhance your skills in energy systems modelling with our user-friendly interface and additional learning materials, enabling comprehensive national-level modelling of the power and transport sectors.</p>
