@@ -90,6 +90,18 @@ ul {
 
 }
 
+.fade-in-center {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
 @keyframes scale-in {
   0% {
     -webkit-transform: scale(.4);
