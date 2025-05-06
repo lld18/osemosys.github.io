@@ -40,7 +40,7 @@ permalink: /applications/
 
   <hr>
 
-  <div class="col-lg-10 mx-auto text-left">
+  <div class="col-lg-10 mx-auto text-center">
     <h2 class="alt-h2">High-impact projects powered by OSeMOSYS:</h2>
   </div>
 
