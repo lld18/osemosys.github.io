@@ -55,6 +55,15 @@
 #   - vendor/ruby/
 
 # global settings
+tool_name: OSeMOSYS        # Change this for each tool
+logo: /assets/img/osemosys-logo.png # Path to the PNG/JPG logo for the tool
+
+colors:
+  primary: "#003366"       # Dark blue (map section background)
+  secondary: "#0055cc"     # Accent blue (buttons, hover)
+  accent: "#cc0000"        # Optional red (hover or highlights)
+
+description: "OSeMOSYS is an open source modelling system for long-term integrated assessment and energy planning."
 title: "The Open Source Energy Modelling System (OSeMOSYS)"
 description: "GitHub helps government build software better, together"
 permalink: "/stories/:title"

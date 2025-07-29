@@ -5,13 +5,15 @@ description: OSeMOSYS is an open source modelling system for long-term integrate
 org_count: 60
 permalink: /
 ---
-<section class="page-header bg-white py-5 fade-in-center">
-  <div class="container-lg p-responsive text-center" style="background: rgba(255, 255, 255, 0.9); padding: 2rem;">
-    <h1 class="alt-h1 mb-4">The Open Source Energy Modelling System (OSeMOSYS)</h1>
-    {% include intro_text.html %}
-    <a href="{{ site.baseurl }}/about/" class="btn btn-outline-light">Learn More →</a>
+<section class="homepage-intro" style="background: var(--primary, #003366); color: white; text-align: center; padding: 4rem 2rem;">
+  <div class="container">
+    <h2 style="font-family: 'Open Sans', sans-serif; font-size: 2rem; font-weight: 600;">The Open Source Energy Modelling System ({{ site.tool_name }})</h2>
+    <p style="max-width: 700px; margin: 1rem auto; font-family: 'Open Sans', sans-serif; line-height: 1.6;">
+      {{ site.description }}
+    </p>
+    <a href="{{ "/about/" | relative_url }}" class="btn btn-primary" style="margin-top: 1rem;">Learn More →</a>
   </div>
-</section>
+
 
 <section class="bg-white py-5">
   <div class="container-lg p-responsive text-center">
