@@ -1,25 +1,30 @@
 ---
 layout: home
 title: OSeMOSYS
-description: OSeMOSYS is an open source modelling system for long-term integrated assessment and energy planning. 
-org_count: 60
+description: OSeMOSYS is an open source modelling system for long-term integrated assessment and energy planning.
 permalink: /
 ---
-<section class="homepage-intro" style="background: var(--primary, #003366); color: white; text-align: center; padding: 4rem 2rem;">
-  <div class="container">
-    <h2 style="font-family: 'Open Sans', sans-serif; font-size: 2rem; font-weight: 600;">The Open Source Energy Modelling System ({{ site.tool_name }})</h2>
-    <p style="max-width: 700px; margin: 1rem auto; font-family: 'Open Sans', sans-serif; line-height: 1.6;">
-      {{ site.description }}
-    </p>
-    <a href="{{ "/about/" | relative_url }}" class="btn btn-primary" style="margin-top: 1rem;">Learn More →</a>
-  </div>
 
+<section class="homepage-intro fade-in">
+  <div class="container">
+    <h2>The Open Source Energy Modelling System ({{ site.tool_name }})</h2>
+    <p class="alt-lead text-gray text-justify-between col-md-10 mx-auto">
+      OSeMOSYS is an open source modelling system for long-term integrated assessment and energy planning. 
+      It has been employed to develop energy systems models from the scale of the globe, continents, countries, 
+      regions and villages. It can focus on detailed power representations, or multi-resource (material, financial, 
+      all energy) systems.
+    </p>
+    <a href="{{ "/about/" | relative_url }}" class="btn btn-primary">Learn More →</a>
+  </div>
+  <div class="map-background"></div>
+</section>
 
 <section class="bg-white py-5">
   <div class="container-lg p-responsive text-center">
     <h2 class="alt-h2 mb-4">What can we apply OSeMOSYS for?</h2>
     <div class="row justify-content-center text-left">
 
+      <!-- Application Cards -->
       <a href="https://www.sciencedirect.com/science/article/pii/S2211467X20301267" class="col-md-4 mb-5 text-decoration-none card-link">
         <div class="card p-3 h-100">
           <h3 class="alt-h3 mb-2">⚡ Power sector capacity expansion</h3>
@@ -63,152 +68,21 @@ permalink: /
       </a>
 
     </div>
-
     <p class="text-center">
       <a href="/applications/" class="btn btn-outline">See more &rarr;</a>
     </p>
   </div>
 </section>
 
-<style>
-.card-link .card {
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-  border-left: 4px solid #0066cc;
-  background-color: #fff;
-}
-
-.card-link:hover .card {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transform: translateY(-4px);
-}
-</style>
-
-<section>
-
-  <div class="container-lg p-responsive py-5 py-md-6">
-  <div style="overflow: hidden;">
- 
-    <div class="container text-center">
-      <h2 class="alt-h2 mb-4">Active Partner Institutions and Programmes</h2>
-      <div class="logo-grid">
-  
-        
-      <a href="https://www.afdb.org/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/afdb.png" alt="African Development Bank">
-      </a>
-
-      <a href="https://ec.europa.eu/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/european-commission.png" alt="European Commission">
-      </a>
-
-      <a href="https://www.iaea.org/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/iaea.png" alt="IAEA">
-      </a>
-
-      <a href="https://www.irena.org/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/irena.png" alt="IRENA">
-      </a>
-
-      <a href="https://www.kth.se/en" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/kth.png" alt="KTH Royal Institute of Technology">
-      </a>
-
-      <a href="https://www.ncsu.edu/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/ncsu.png" alt="North Carolina State University">
-      </a>
-
-      <a href="https://www.psi.ch/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/psi.png" alt="Paul Scherrer Institute">
-      </a>
-
-      <a href="https://www.sei.org/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/sei.png" alt="Stockholm Environment Institute">
-      </a>
-
-      <a href="https://www.sfu.ca/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/sfu.png" alt="Simon Fraser University">
-      </a>
-
-      <a href="https://www.stanford.edu/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/stanford.png" alt="Stanford University">
-      </a>
-
-      <a href="https://www.ucl.ac.uk/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/ucl.png" alt="University College London">
-      </a>
-
-      <a href="https://www.uct.ac.za/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/uct.png" alt="University of Cape Town">
-      </a>
-
-      <a href="https://www.un.org/development/desa/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/undesa.png" alt="UN DESA">
-      </a>
-
-      <a href="https://www.unido.org/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/unido.png" alt="UNIDO">
-      </a>
-
-      <a href="https://www.worldbank.org/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/worldbank.png" alt="World Bank Group">
-      </a>
-
-      <a href="https://www.worldwildlife.org/" target="_blank">
-        <img src="{{ site.baseurl }}/assets/img/partners/wwf.png" alt="World Wildlife Fund">
-      </a>
-
-      </div>
-    </div>
-  </section>
- 
-    <style>
-    .logo-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.5rem;
-}
-
-.logo-grid a {
-  display: inline-block;
-  transition: filter 0.3s ease;
-}
-
-.logo-grid a:hover img {
-  filter: brightness(0.7);
-}
-
-.logo-grid img {
-  max-height: 80px;
-  width: auto;
-  object-fit: contain;
-}
-    </style>
-
-</section>
-
-
-<section id="contact-a-human" class="bg-gray-light">
-  <div class="container-lg p-responsive py-5 py-md-6 text-center">
-    <span class="text-center">
-      {% octicon people height:42 class:"d-block mx-auto mb-4 text-center fill-gray" aria-label:people %}
-    </span>
-    <h3 class="alt-h2 mb-4">Explore OSeMOSYS on</h3>
-    <p class="f2-light text-white">
-      {% for platform in site.data.social_media %}
-        <a href="{{ platform.url }}" class="px-2" style="text-decoration: none !important;">
-          <i class="{{ platform.icon }} logo logo-hover py-3" style="font-size: 32px"></i>
+<section class="partners fade-in">
+  <div class="container-lg p-responsive text-center">
+    <h2 class="alt-h2 mb-4">Active Partner Institutions and Programmes</h2>
+    <div class="logo-grid">
+      {% for org in site.data.orgs %}
+        <a href="{{ org.url }}" target="_blank">
+          <img src="{{ org.logo }}" alt="{{ org.name }}">
         </a>
       {% endfor %}
-    </p>
-    <p><a href="">Post a question</a> in the community to get feedback.</p>
+    </div>
   </div>
 </section>
-
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-</div>
-</div>

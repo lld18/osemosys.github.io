@@ -1,29 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/style.css" | relative_url }}">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-  {% seo %}
-</head>
-<body class="{{ page.layout }}">
 
-<header class="site-header" style="background: white; color: black; text-align: center; padding: 2rem 0;">
-  <div class="container">
-    {% if site.logo %}
-      <img src="{{ site.logo | relative_url }}" alt="{{ site.tool_name }} Logo" class="tool-logo" style="height: 60px; margin-bottom: 1rem;">
-    {% endif %}
-    <h1 class="tool-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700; font-size: 2.5rem; margin: 0;">{{ site.tool_name }}</h1>
-    <nav class="nav-links" style="margin-top: 1rem;">
-      <ul style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; gap: 2rem; font-family: 'Open Sans', sans-serif; font-weight: 600;">
-        <li><a href="{{ "/about/" | relative_url }}">About</a></li>
-        <li><a href="{{ "/applications/" | relative_url }}">Applications</a></li>
-        <li><a href="{{ "/learning_capacity/" | relative_url }}">Learning</a></li>
-        <li><a href="{{ "/contact/" | relative_url }}">Get Involved</a></li>
-      </ul>
-    </nav>
+
+<header class="site-header fade-in">
+  <div class="header-top">
+    <div class="logo-left">
+      <a href="{{ "/" | relative_url }}">
+        <img src="/assets/img/osemosys-logo.png" alt="{{ site.tool_name }} Logo" class="responsive-logo">
+      </a>
+      <h1 class="tool-title">
+        <a href="{{ "/" | relative_url }}">{{ site.tool_name }}</a>
+      </h1>
+    </div>
   </div>
+  <nav class="nav-links">
+    <ul>
+      <li><a href="{{ "/about/" | relative_url }}">About</a></li>
+      <li><a href="{{ "/applications/" | relative_url }}">Applications</a></li>
+      <li><a href="{{ "/learning_capacity/" | relative_url }}">Learning</a></li>
+      <li><a href="{{ "/contact/" | relative_url }}">Get Involved</a></li>
+    </ul>
+  </nav>
 </header>
-

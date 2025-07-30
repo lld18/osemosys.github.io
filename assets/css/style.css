@@ -1,4 +1,4 @@
-:root {
+::root {
   --primary: #003366; /* Dark blue */
   --secondary: #0055cc; /* Accent blue */
   --accent: #cc0000; /* Red accent */
@@ -26,6 +26,7 @@ p, ul, ol {
   max-width: 700px;
 }
 
+/* Header */
 header.site-header {
   background-color: white;
   color: black;
@@ -66,13 +67,34 @@ header.site-header {
   text-decoration: underline;
 }
 
+/* Homepage Intro with Map */
 section.homepage-intro {
   background: var(--primary);
   color: white;
   text-align: center;
   padding: 4rem 2rem;
+  position: relative;
+  overflow: hidden;
 }
 
+section.homepage-intro .map-background {
+  background: url('/assets/img/background2.svg') center no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+section.homepage-intro .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Buttons */
 .btn-primary {
   background-color: var(--secondary);
   color: white;
@@ -85,24 +107,6 @@ section.homepage-intro {
 }
 .btn-primary:hover {
   background-color: var(--accent);
-}
-
-.card, .emp-card {
-  border-radius: 12px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
-  background: #fff;
-  padding: 2rem;
-  margin-bottom: 2rem;
-}
-
-section, .section {
-  padding: 3rem 0;
-}
-
-.container-lg, .col-lg-10, .col-md-6, .col-md-4 {
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .btn, .btn-outline {
@@ -122,12 +126,91 @@ section, .section {
   text-decoration: none;
 }
 
-.nav-link.active, .nav-link:focus {
-  color: var(--secondary) !important;
-  font-weight: 600;
-  border-bottom: 2px solid var(--secondary);
+/* Cards (Applications Section) */
+.card, .emp-card {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  background: #fff;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
 }
 
+/* Partners Logo Grid */
+.logo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.logo-grid img {
+  max-height: 80px;
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.logo-grid a:hover img {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+/* Footer */
+.site-footer {
+  background: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+.footer-top h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.footer-social {
+  margin-bottom: 1.5rem;
+}
+.footer-social a {
+  margin: 0 0.5rem;
+  font-size: 2rem;
+  color: white;
+  transition: color 0.3s ease;
+}
+.footer-social a:hover {
+  color: var(--secondary);
+}
+.footer-text {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+.footer-link {
+  color: var(--secondary);
+  text-decoration: none;
+  font-weight: 600;
+}
+.footer-link:hover {
+  text-decoration: underline;
+}
+.footer-copy {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-top: 1.5rem;
+}
+
+/* Fade-in Animation */
+.fade-in {
+  animation: fadeIn 1.2s ease-in;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Accessibility and Responsive */
 a:focus, button:focus {
   outline: 2px solid var(--secondary);
   outline-offset: 2px;

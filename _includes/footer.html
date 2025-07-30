@@ -1,20 +1,19 @@
-<footer>
-  <p class="border-top text-center f5 mt-4 pt-4">&copy; 2025 - {{ site.time | date: '%Y' }} <span>CCG</span>. and contributors</p>
+<footer class="site-footer fade-in">
+  <div class="footer-top">
+    <span class="footer-icon">
+      {% octicon people height:42 class:"d-block mx-auto mb-3 text-center fill-gray" aria-label:people %}
+    </span>
+    <h3 class="alt-h2 mb-4">Explore OSeMOSYS on</h3>
+    <div class="footer-social">
+      {% for item in site.data.social_media %}
+        <a href="{{ item.url }}" target="_blank" aria-label="{{ item.name }}">
+          <i class="{{ item.icon }}"></i>
+        </a>
+      {% endfor %}
+    </div>
+
+    
+    </p>
+  </div>
+  <p class="footer-copy">&copy; {{ site.tool_name }} {{ site.time | date: "%Y" }}. All Rights Reserved.</p>
 </footer>
-
-<script src="{{ "/assets/vendor/anchor-js/anchor.min.js" | relative_url}}"></script>
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<!-- <script src="{{ "/assets/vendor/jquery/dist/jquery.min.js" | relative_url}}"></script> -->
-<script>anchors.add('.org-type h4');</script>
-{% if page.url == "/community/" %}
-  <script src="{{ "/assets/js/community.js" | relative_url}}"></script>
-{% elsif page.url == "/" %}
-  <script src="{{ "/assets/js/home.js" | relative_url}}"></script>
-{% endif %}
-</body>
-</html>
-<!-- Proudly powered by GitHub Pages ~ Generated {{ site.time }} -->
-
-  </body>
-</html>
-<!-- Proudly powered by GitHub Pages ~ Generated {{ site.time }} -->
