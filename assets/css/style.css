@@ -1,4 +1,23 @@
-::root {
+---
+# This front matter tells Jekyll to compile SCSS to CSS
+---
+
+/* Primer theme imports (required for GitHub Pages) */
+@import "primer-support/index.scss";
+@import "primer-base/index.scss";
+@import "primer-utilities/index.scss";
+@import "primer-layout/index.scss";
+@import "primer-support/index.scss";
+@import "primer-markdown/index.scss";
+@import "primer-core/index.scss";
+@import "primer-marketing/index.scss";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+/* -----------------------------------
+   Custom Styles (Overrides Start Here)
+-------------------------------------- */
+
+:root {
   --primary: #003366; /* Dark blue */
   --secondary: #0055cc; /* Accent blue */
   --accent: #cc0000; /* Red accent */
@@ -126,7 +145,7 @@ section.homepage-intro .container {
   text-decoration: none;
 }
 
-/* Cards (Applications Section) */
+/* Cards */
 .card, .emp-card {
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.06);
@@ -140,7 +159,7 @@ section.homepage-intro .container {
   box-shadow: 0 6px 18px rgba(0,0,0,0.1);
 }
 
-/* Partners Logo Grid */
+/* Partners Grid */
 .logo-grid {
   display: flex;
   flex-wrap: wrap;
@@ -210,7 +229,7 @@ section.homepage-intro .container {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Accessibility and Responsive */
+/* Accessibility & Responsive */
 a:focus, button:focus {
   outline: 2px solid var(--secondary);
   outline-offset: 2px;
