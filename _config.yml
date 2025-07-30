@@ -86,8 +86,6 @@ plugins:
   - jekyll-octicons
 
 sass:
-  style: :compressed
-  sass_dir: assets/css/
-  load_paths:
-    - node_modules/
-    - node_modules/@primer/view-components/app/components/
+  sass_dir: assets/css
+  style: compressed
+ 
