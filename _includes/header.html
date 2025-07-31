@@ -18,28 +18,29 @@
   <div class="page-header pt-4 pb-5">
     <div class="container-lg">
 
-      <div class="container-lg d-flex justify-content-between align-items-center py-3">
-  <!-- Left: Logo + Title -->
-  <div class="d-flex align-items-center">
-    <img src="{{ "/assets/img/osemosys-logo.png" | relative_url }}" alt="Logo" height="48" class="mr-3">
-    <h1 class="mb-0 text-white" style="font-size: 1.5rem;">OSeMOSYS</h1>
-  </div>
+<div class="d-flex justify-content-between align-items-center">
 
-  <!-- Right: Nav Links -->
-  <ul class="nav d-none d-md-flex">
-    {% include subpage_links.html %}
-  </ul>
-
-  <!-- Mobile Menu -->
-  <details class="dropdown d-md-none">
-    <summary class="btn text-white">{% octicon three-bars height:28 class:"fill-white" %}</summary>
-    <ul class="dropdown-menu dropdown-menu-se bg-dark">
-      {% include subpage_links.html %}
-    </ul>
-  </details>
-</div>
-
-      
+        <div style="display: inline-block;">
+          <a href="{{ "/" | relative_url}}"><img class="logo py-3" src="{{ "/assets/img/osemosys-logo.png" | relative_url}}" alt="OSeMOSYS"></a>
+        </div>
+        <div class="text-center" style="display: inline-block;">
+           <h1 class="mb-0 text-white" style="font-size: 1.5rem;">OSeMOSYS</h1>
+          <ul class="d-none d-md-block">
+            {% include subpage_links.html %}
+          </ul>     
+        </div>
+        <!-- 在小屏幕显示 Primer dropdown -->
+        <details class="dropdown details-reset details-overlay d-md-none" style="display: inline-block; margin-left: auto;margin-top: 2.5rem;">
+          <summary class="btn btn-large float-right" aria-haspopup="true">
+            <span class="text-white text-bold float-right"> {% octicon three-bars height:28 class:"fill-white mr-2" aria-label:terminal %}
+            </span>
+          </summary>
+          <ul class="dropdown-menu dropdown-menu-se" style="display: inline-block;">
+            {% include subpage_links.html %}
+          </ul>
+        </details>  
+      </div>  
+    </div>
   
     <!-- .full-width here gets closed on support-page.html and home.html layouts -->
            
