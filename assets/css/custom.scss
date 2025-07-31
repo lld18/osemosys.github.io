@@ -13,16 +13,16 @@ body {
 
 .page-header {
   width: 100%;
-  background-color:  $blue-500;
-  -webkit-transition: background-image 0.6s ease-in-out 0s;
-  -moz-transition: background-image 0.6s ease-in-out 0s;
-  -o-transition: background-image 0.6s ease-in-out 0s;
-  transition: background-image 0.6s ease-in-out 0s;
-  background-image: url('../img/background2.svg');
-  background-size: 100%; /* Make the background image cover the entire area */
+  background-color:  $blue-500; /* your deep blue */
+  background-image: url('/assets/img/background.svg');
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  position: relative;
 }
+
+
 
 .logo {
   max-width: 120px;

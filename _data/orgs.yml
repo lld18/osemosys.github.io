@@ -1,67 +1,64 @@
-- name: ccg
-  type: github
-  github: climatecompatiblegrowth
-  logo: /assets/img/CCG logo.png
-  height: 80
-  display_name: CCG
-  url: https://climatecompatiblegrowth.com/ 
+partners:
+  - name: African Development Bank
+    url: https://www.afdb.org/
+    logo: /assets/img/partners/afdb.png
 
-- name: lboro
-  logo: /assets/img/Loughborough University.png
-  height: 60
-  display_name: Loughborough University
-  url: "/coming-soon" 
- 
-- name: optimus
-  logo: /assets/img/OpTIMUS logo.jpg
-  height: 60
-  display_name: OpTIMUS
-  url: "/coming-soon" 
+  - name: European Commission
+    url: https://ec.europa.eu/
+    logo: /assets/img/partners/european-commission.png
 
-- name: ou
-  logo: /assets/img/OU_Master_LOGO_BLUE_63mm.png
-  height: 60
-  display_name: Open University
-  url: "/coming-soon" 
+  - name: IAEA
+    url: https://www.iaea.org/
+    logo: /assets/img/partners/iaea.png
 
-- name: SFU
-  logo: /assets/img/SEE Logo_RGB.png
-  height: 80
-  display_name: School of Sustainable Energy Engineering
-  url: https://www.iaea.org/topics/economics/energy-economic-and-environmental-analysis/climate-land-energy-water-strategies 
+  - name: IRENA
+    url: https://www.irena.org/
+    logo: /assets/img/partners/irena.png
 
-- name: undesa
-  logo: /assets/img/UNDESA logo.png
-  height: 80
-  display_name: UNDESA
-  url: https://un-modelling.github.io/modelling-tools/
+  - name: KTH Royal Institute of Technology
+    url: https://www.kth.se/en
+    logo: /assets/img/partners/kth.png
 
-- name: kth
-  logo: /assets/img/Kth_logo.svg_-266x300.png
-  height: 80
-  display_name: KTH
-  url: https://www.energy.kth.se/energy-systems/research-areas/integrated-climate-land-energy-and-water-systems-1.1183760 
+  - name: North Carolina State University
+    url: https://www.ncsu.edu/
+    logo: /assets/img/partners/ncsu.png
 
-- name: ukaid
-  logo: /assets/img/UK Aid.png
-  height: 60
-  display_name: UK Aid
-  url: "/coming-soon"
+  - name: Paul Scherrer Institute
+    url: https://www.psi.ch/
+    logo: /assets/img/partners/psi.png
 
-- name: iaea
-  logo: /assets/img/IAEA (slogan).png
-  height: 60
-  display_name: IAEA
-  url: https://www.iaea.org/topics/economics/energy-economic-and-environmental-analysis/climate-land-energy-water-strategies 
+  - name: Stockholm Environment Institute
+    url: https://www.sei.org/
+    logo: /assets/img/partners/sei.png
 
-- name: oxford
-  logo: /assets/img/University-of-Oxford.svg
-  height: 50
-  display_name: University of Oxford
-  url: "/coming-soon" 
-  
-- name: cambridge
-  logo: /assets/img/University-of-Cambridge-Logo.svg
-  height: 50
-  display_name: University of Cambridge
-  url: "/coming-soon" 
+  - name: Simon Fraser University
+    url: https://www.sfu.ca/
+    logo: /assets/img/partners/sfu.png
+
+  - name: Stanford University
+    url: https://www.stanford.edu/
+    logo: /assets/img/partners/stanford.png
+
+  - name: University College London
+    url: https://www.ucl.ac.uk/
+    logo: /assets/img/partners/ucl.png
+
+  - name: University of Cape Town
+    url: https://www.uct.ac.za/
+    logo: /assets/img/partners/uct.png
+
+  - name: UN DESA
+    url: https://www.un.org/development/desa/
+    logo: /assets/img/partners/undesa.png
+
+  - name: UNIDO
+    url: https://www.unido.org/
+    logo: /assets/img/partners/unido.png
+
+  - name: World Bank Group
+    url: https://www.worldbank.org/
+    logo: /assets/img/partners/worldbank.png
+
+  - name: World Wildlife Fund
+    url: https://www.worldwildlife.org/
+    logo: /assets/img/partners/wwf.png
